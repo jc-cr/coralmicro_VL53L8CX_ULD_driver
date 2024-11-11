@@ -17,9 +17,7 @@
 #pragma anon_unions
 #endif
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+
 
 #include "platform.h"
 
@@ -757,10 +755,4 @@ uint8_t vl53l8cx_dci_replace_data(
 		uint16_t			new_data_size,
 		uint16_t			new_data_pos);
 
-
-#ifdef __cplusplus
-}
-#endif
-
 #endif //VL53L8CX_API_H_
-
